@@ -271,3 +271,14 @@ div#archive {
     -ms-transform: scale(0.5);
     -o-transform: scale(0.5);
 }
+
+
+/* 导航栏图标大小 */
+.iconfont {
+    font-family: "iconfont" !important;
+    /* 这里可以自定义图标大小 */
+    font-size: 24px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}

@@ -282,3 +282,9 @@ div#archive {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+
+
+/* 页脚与透明 */
+#footer {
+    background: transparent !important;
+}

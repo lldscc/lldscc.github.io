@@ -289,6 +289,10 @@ div#archive {
     background: transparent !important;
 }
 
+#footer #footer-wrap {
+    color: aqua;
+}
+
 
 
 /* 字体 */

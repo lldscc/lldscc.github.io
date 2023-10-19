@@ -313,27 +313,67 @@ div#archive {
 
 
 
-/* iconfont文件引入 */
+/* iconfont彩色图标文件引入 */
 @font-face {
     font-family: "iconfont";
     /* Project id 4294381 */
     /* Color fonts */
     src:
-        url('iconfont.woff2?t=1697708424770') format('woff2'),
-        url('iconfont.woff?t=1697708424770') format('woff'),
-        url('iconfont.ttf?t=1697708424770') format('truetype');
+        url('iconfont.woff2?t=1697723040517') format('woff2'),
+        url('iconfont.woff?t=1697723040517') format('woff'),
+        url('iconfont.ttf?t=1697723040517') format('truetype');
 }
 
 .iconfont {
     font-family: "iconfont" !important;
-    font-size: 25px;
+    font-size: 16px;
     font-style: normal;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-weixin {
-    font-size: 27px;
+.icon-lei02:before {
+    content: "\e602";
+}
+
+.icon-geren:before {
+    content: "\e604";
+}
+
+.icon-qta:before {
+    content: "\e60c";
+}
+
+.icon-lei03:before {
+    content: "\e600";
+}
+
+.icon-lei04:before {
+    content: "\e691";
+}
+
+.icon-rzhi2:before {
+    content: "\e638";
+}
+
+.icon-shijian:before {
+    content: "\ec8e";
+}
+
+.icon-lei01:before {
+    content: "\e601";
+}
+
+.icon-rzhi1:before {
+    content: "\e636";
+}
+
+.icon-home:before {
+    content: "\e603";
+}
+
+.icon-link:before {
+    content: "\e622";
 }
 
 .icon-GitHub:before {
@@ -354,4 +394,30 @@ div#archive {
 
 .icon-weixin:before {
     content: "\e623";
+}
+
+/* 调整下大小---个人信息 */
+.icon-GitHub,
+.icon-bilibili,
+.icon-Youtube {
+    font-size: 26px;
+}
+
+.icon-weixin,
+.icon-QQ {
+    font-size: 28px;
+
+}
+
+/* 调整下大小---top */
+
+.icon-home,
+.icon-shijian,
+.icon-lei03,
+.icon-rzhi1 {
+    font-size: 25px;
+}
+
+.icon-53_qita {
+    font-size: 30px;
 }

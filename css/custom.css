@@ -308,3 +308,50 @@ div#archive {
     /* 定义显示样式 */
     font-display: block;
 }
+
+
+
+
+
+/* iconfont文件引入 */
+@font-face {
+    font-family: "iconfont";
+    /* Project id 4294381 */
+    /* Color fonts */
+    src:
+        url('iconfont.woff2?t=1697708424770') format('woff2'),
+        url('iconfont.woff?t=1697708424770') format('woff'),
+        url('iconfont.ttf?t=1697708424770') format('truetype');
+}
+
+.iconfont {
+    font-family: "iconfont" !important;
+    font-size: 25px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-weixin {
+    font-size: 27px;
+}
+
+.icon-GitHub:before {
+    content: "\e6da";
+}
+
+.icon-Youtube:before {
+    content: "\ef66";
+}
+
+.icon-QQ:before {
+    content: "\fae0";
+}
+
+.icon-bilibili:before {
+    content: "\e85e";
+}
+
+.icon-weixin:before {
+    content: "\e623";
+}

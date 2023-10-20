@@ -319,9 +319,9 @@ div#archive {
     /* Project id 4294381 */
     /* Color fonts */
     src:
-        url('iconfont.woff2?t=1697723040517') format('woff2'),
-        url('iconfont.woff?t=1697723040517') format('woff'),
-        url('iconfont.ttf?t=1697723040517') format('truetype');
+        url('iconfont.woff2?t=1697812124414') format('woff2'),
+        url('iconfont.woff?t=1697812124414') format('woff'),
+        url('iconfont.ttf?t=1697812124414') format('truetype');
 }
 
 .iconfont {
@@ -330,6 +330,10 @@ div#archive {
     font-style: normal;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-rzhi3:before {
+    content: "\e62f";
 }
 
 .icon-lei02:before {
@@ -396,6 +400,7 @@ div#archive {
     content: "\e623";
 }
 
+
 /* 调整下大小---个人信息 */
 .icon-GitHub,
 .icon-bilibili,
@@ -414,7 +419,8 @@ div#archive {
 .icon-home,
 .icon-shijian,
 .icon-lei03,
-.icon-rzhi1 {
+.icon-rzhi1,
+.icon-rzhi3 {
     font-size: 25px;
 }
 
